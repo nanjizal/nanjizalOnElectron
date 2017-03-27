@@ -1,0 +1,11 @@
+-cmd npm run build
+--next
+-cmd haxe clean.hxml
+-cmd mkdir build
+--next 
+-cmd npm install
+--next
+-cmd haxe copy.hxml
+-cmd electron-packager build nanjizalOnElectron --platform=darwin --overwrite
+--next 
+-cmd open ./nanjizalOnElectron-darwin-x64/nanjizalOnElectron.app

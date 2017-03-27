@@ -1,0 +1,18 @@
+-lib electron
+-lib hxnodejs
+-lib thx.core
+-lib htmlHelper
+
+-cp src
+-dce full
+-debug
+--each
+
+--next
+-js main.js
+-main Main
+#-D fullScreen
+
+--next
+-js app.js
+-main App

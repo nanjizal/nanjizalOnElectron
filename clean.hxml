@@ -1,0 +1,2 @@
+-cmd rm -r -f build
+-cmd rm -r -f nanjizalOnElectron-darwin-x64

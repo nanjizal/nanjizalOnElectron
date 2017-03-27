@@ -1,0 +1,5 @@
+-cmd cp app.js build/app.js
+-cmd cp main.js build/main.js
+-cmd cp app.html build/app.html
+-cmd cp -r assets/ build/assets/
+-cmd cp package.json build/package.json

@@ -1,0 +1,3 @@
+# tend to use this from the git haxelib folder for hxelectron 
+# and then from generated src folder copy the electron folder to our local src folder.
+-cmd haxelib run electron './electron-api.json'
